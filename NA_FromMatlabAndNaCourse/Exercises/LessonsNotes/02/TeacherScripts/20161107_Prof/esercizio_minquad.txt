@@ -1,0 +1,25 @@
+Data f(x)=2*exp(x)+4*exp(-x)-5
+sia x=(0:0.1:1)’; y=f(x);
+sia poi yy la seguente perturbazione di y:
+
+1.00
+0.83
+0.72
+0.66
+0.65
+0.71
+0.84
+1.02
+1.25
+1.55
+1.91
+
+Calcolare ff(x)=c_1*exp(x)+c_2*exp(-x)+c_3 
+mediante minimi quadrati
+
+Sol.:
+c_1=2.02218…
+c_2=4.05198…
+c_3=-5.07288…
+
+
